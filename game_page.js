@@ -18,7 +18,7 @@ function send() {
     word = get_word.toLowerCase();
     console.log("word in lower case = " + word);
 
-    charAt1 = word.chatAt(1);
+    charAt1 = word.charAt(1);
     console.log(charAt1);
 
     length_divide_2 = Math.floor(word.length/2);
